@@ -1,0 +1,52 @@
+/* Style the form container */
+.form-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form heading */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Style the labels */
+  label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style the input fields */
+  input[type="text"],
+  input[type="number"],
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    width: 100%;
+    background-color: #4cafad;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #18919c;
+  }
+  

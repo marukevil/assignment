@@ -1,0 +1,23 @@
+
+
+<form class="form-container" (ngSubmit)="onSubmit($event)">
+  <h1>Create a Meeting Schedule</h1>
+<hr>
+  <div>
+    <label for="meeting-topic">Meeting Topic</label><br>
+    <input type="text" id="meeting-topic" name="meetingTopic" [(value)]="meeting.meetingTopic" placeholder="Enter Meeting Topic" required>
+  </div><br>
+
+  <div>
+    <label for="number-of-people">Number of People</label><br>
+    <input type="number" id="number-of-people" name="numberOfPeople" [(value)]="meeting.numberOfPeople" placeholder="Enter number of people" required>
+  </div><br>
+  <div>
+    <label for="meeting-time">Meeting Time</label><br>
+    <input type="datetime-local" id="meeting-time" name="meetingTime" [(value)]="meeting.meetingTime" required>
+  </div><br>
+  <hr>
+  <button type="submit">Schedule Meeting</button>
+</form>
+<hr>
+<br>

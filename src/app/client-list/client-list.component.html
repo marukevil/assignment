@@ -1,0 +1,10 @@
+<div *ngIf="clients.length > 0">
+    <h3>Client List</h3>
+    <ul>
+      <li *ngFor="let client of clients">
+        <strong>Name:</strong> {{ client.name }} <br>
+        <strong>Email:</strong> {{ client.email }}
+      </li>
+    </ul>
+  </div>
+  
